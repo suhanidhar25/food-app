@@ -1,0 +1,8 @@
+
+.category{
+    background:linear-gradient(rgb(42, 41, 41),black);
+    color: rgb(255, 200, 0);
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
