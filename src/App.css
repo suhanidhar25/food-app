@@ -2,16 +2,9 @@
 
 body{
   height: 250vh;
-  background-image: url("./assets/black-bg.jpg");
+  background-image: url("./assets/bg-cover.jpg");
   background-size: cover;
   color: antiquewhite;
   overflow-x: hidden;
 }
 
-body ::before{
-  
-  top: 0;
-  left: 0;
-  filter: blur(8px);
-  z-index: -1;
-}

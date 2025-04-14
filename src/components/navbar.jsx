@@ -19,6 +19,8 @@ function Navbar() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/login">LogIn</Nav.Link>
+            <Nav.Link as={Link} to="/signup">SignUp</Nav.Link>
           </Nav>
         </BootstrapNavbar.Collapse>
       </Container>
