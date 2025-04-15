@@ -5,7 +5,9 @@ import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Make sure this is here!
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter> {/* ✅ This is the only place for Router */}
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );

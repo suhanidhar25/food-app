@@ -10,7 +10,9 @@ const menuitems = ({item}) => {
           <p className="card-text text-light">{item.description}</p>
           <div className="mt-auto d-flex justify-content-between align-items-center">
             <span className="fw-bold">Rs {item.price.toFixed(2)}</span>
-            <button className="btn btn-sm btn-primary">Order Now</button>
+            <button className="btn btn-sm btn-primary" onClick={() => addToCart(item)}>
+            Order Now
+          </button>
           </div>
         </div>
       
