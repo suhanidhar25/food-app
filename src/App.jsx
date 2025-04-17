@@ -9,6 +9,8 @@ import Login from "./pages/login";
 import Signup from "./pages/signup";
 import Cart from "./pages/cart";
 import { CartProvider } from "./context/cartcontext"; 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import "./icons";
 
@@ -28,7 +30,9 @@ const App = () => {
         </Routes>
       </div>
       <Footer />
+      <ToastContainer position="top-center" />
       </CartProvider>
+
 
   );
 };

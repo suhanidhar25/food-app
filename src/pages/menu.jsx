@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuData from '../data/fooddata.jsx';
-import MenuItem from '../components/menuitems';
+import MenuItems from '../components/menuitems';
 import './menu.css';
 
 const Menu = () => {
@@ -12,7 +12,7 @@ const Menu = () => {
           <h3 className="mb-4 border-bottom pb-2">{section.category}</h3>
           <div className="row">
             {section.items.map(item => (
-              <MenuItem key={item.id} item={item} />
+              <MenuItems key={item.id} item={item} />
             ))}
           </div>
         </div>

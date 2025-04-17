@@ -17,7 +17,7 @@ const CartPage = () => {
           {cart.map((item) => (
             <div key={item.id} className="d-flex justify-content-between align-items-center border-bottom py-3">
               <div className="d-flex align-items-center gap-3">
-                <img src={item.image} alt={item.name} style={{ width: '70px', height: '70px', borderRadius: '10px', objectFit: 'cover' }} />
+                
                 <div>
                   <h5>{item.name}</h5>
                   <p className="mb-1">Price: ₹{item.price}</p>
